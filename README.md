@@ -29,7 +29,7 @@ Clone the GitHub repo and make any changes you like. I will not take pushes to t
 
 # Tests
 To test the program, run the following commands: <br>
-    ```npm i```
+```npm i```
 
 # Questions
 **Developed by: Alexandra Hinton** <br>
