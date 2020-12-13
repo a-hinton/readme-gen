@@ -100,9 +100,8 @@ const chooseBadge = (license) => {
 const readme = (inputs) => {
 
     return `
-${chooseBadge(inputs.license)}
-
 # ${inputs.project}
+${chooseBadge(inputs.license)}
 
 ## Description
 **${inputs.description}**
