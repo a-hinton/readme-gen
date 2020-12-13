@@ -32,8 +32,8 @@ To test the program, run the following commands: <br>
     ```npm i```
 
 # Questions
-**Developed by: Alexandra Hinton**
-**GitHub: a-hinton**
-**LinkedIn: www.linkedin.com/in/alexandrakhinton**
-**Email: N/A**
+**Developed by: Alexandra Hinton** <br>
+**GitHub: a-hinton** <br>
+**LinkedIn: www.linkedin.com/in/alexandrakhinton** <br>
+**Email: N/A** <br>
 Contact me via email with any questions you have regarding this project.

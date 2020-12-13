@@ -82,16 +82,16 @@ init();
 const chooseBadge = (license) => {
     let badge = '';
     if (license === 'Apache License v2.0') {
-        badge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+        badge = '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
     }
     else if (license === 'GNU General Public License v3.0') {
-        badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
+        badge = '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)'
     }
     else if (license === 'MIT License') {
-        badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+        badge = '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)'
     }
     else {
-        badge = '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
+        badge = '![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)'
     }
     return badge
 }
@@ -100,43 +100,43 @@ const chooseBadge = (license) => {
 const readme = (inputs) => {
 
     return `
-    ${chooseBadge(inputs.license)}
+${chooseBadge(inputs.license)}
 
-    # ${inputs.project}
+# ${inputs.project}
 
-    ## Description
-    **${inputs.description}**
+## Description
+**${inputs.description}**
 
-    # Table of Contents
+# Table of Contents
 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions ](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions ](#questions)
 
-    # Installation
-    ${inputs.installation}
+# Installation
+${inputs.installation}
 
-    # Usage
-    ${inputs.usage}
+# Usage
+${inputs.usage}
 
-    # License
-    ${inputs.license}
+# License
+${inputs.license}
 
-    # Contributing
-    ${inputs.contributing}
+# Contributing
+${inputs.contributing}
 
-    # Tests
-    To test the program, run the following commands: <br>
-    \`\`\`${inputs.tests}\`\`\`
+# Tests
+To test the program, run the following commands: <br>
+\`\`\`${inputs.tests}\`\`\`
 
-    # Questions
-    **Developed by: ${inputs.name}**
-    **GitHub: ${inputs.github}**
-    **LinkedIn: ${inputs.linkedin}**
-    **Email: ${inputs.email}**
-    Contact me via email with any questions you have regarding this project.`
+# Questions
+**Developed by: ${inputs.name}** <br>
+**GitHub: ${inputs.github}** <br>
+**LinkedIn: ${inputs.linkedin}** <br>
+**Email: ${inputs.email}** <br>
+Contact me via email with any questions you have regarding this project.`
 }
 
