@@ -1,7 +1,6 @@
 
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-
 # README Generator
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 ## Description
 **This program is designed to take user input from a bash terminal and create a standardized README.**
